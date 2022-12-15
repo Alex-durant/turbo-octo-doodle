@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2rem;
+    color: 5F8D4E;
+    text-align: center;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: orange;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Roseland_Park%2C_Woodstock_Connecticut.jpg/1280px-Roseland_Park%2C_Woodstock_Connecticut.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

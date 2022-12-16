@@ -117,6 +117,7 @@ nav a:hover::after {
 footer {
     float: right;
     background-color: #5F8D4E;
+    color: #A9AF7E;
     padding: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1rem;

@@ -8,7 +8,7 @@ html {
     font-family: 'Kalam', cursive;
     font-size: 1.25rem;
     line-height: 2.5rem;
-    color: #CC9C75;
+    color: #C8F2EF;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #A25B5B;
+    background-color: #009EFF;
 }
 
 .img-1,
@@ -29,18 +29,18 @@ body {
     margin-left: 15rem;
     margin-bottom: 4rem;
     max-width: 50%;
-    box-shadow: 6px 10px 6px #7e4444;
+    box-shadow: 6px 10px 6px #0278c1;
 }
 
 h1 {
     text-decoration: underline wavy;
     text-underline-offset: 13px;
-    color: #632626;
+    color: #BABD42;
 }
 
 h1::before,
 h1::after {
-    content: "\1F621 ";
+    content: "\1F402 ";
 }
 
 h1,
@@ -48,11 +48,13 @@ h2,
 h3,
 p,
 div,
-h5 {
+header {
     width: 75%;
     padding-left: 250px;
 }
 
+h2,
+h3,
 p {
     font-size: 1.5rem;
 }
@@ -62,19 +64,19 @@ div li {
     text-align: left;
 }
 
-h3,
-h4 {
+h4, 
+h5,
+h6 {
     font-size: 2rem;
-    color: #632626;
+    color: #BABD42;
     text-decoration: underline wavy;
     text-underline-offset: 12px;
 }
-
-h5 {
+header {
     font-family: 'Hanalei Fill', cursive;
     font-weight: lighter;
     font-size: 2rem;
-    color: #632626;
+    color: #BABD42;
 }
 
 nav {
@@ -107,7 +109,7 @@ nav a:active {
 
 nav a:hover::before,
 nav a:hover::after {
-    content: "\1F425 ";
+    content: "\1F331 ";
 }
 
 footer {

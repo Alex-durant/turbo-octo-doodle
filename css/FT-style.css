@@ -35,7 +35,7 @@ body {
 h1 {
     text-decoration: underline wavy;
     text-underline-offset: 13px;
-    color: #5F8D4E;
+    color: #FF8787;
 }
 
 h1::before,
@@ -65,9 +65,9 @@ div li {
 h4,
 h5 {
     font-size: 2rem;
-    color: #5F8D4E;
+    color: #FF8787;
     text-decoration: underline wavy;
-    text-underline-offset: 8px;
+    text-underline-offset: 12px;
 }
 
 h6 {

@@ -1,12 +1,125 @@
-<nav>
-    <ul>
-        <li><a href="/index.html">Return Home</a></li>
-        <li><a href="/Eastern American Toad.html">Eastern American Toad</a></li>
-        <li><a href="/Fowler's Toad.html">Fowler's Toad</a></li>
-        <li><a href="/Green Treefrog.html">Gray Treefrog</a></li>
-        <li><a href="/American Bullfrog.html">American Bullfrog</a></li>
-        <li><a href="/Green Frog.html">Green Frog</a></li>
-        <li><a href="/Eastern Spadefoot.html">Eastern Spadefoot</a></li>
-        <li><a href="/Survey.html">Survey</a></li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/survey-style.css">
+    <title>Survey</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Return Home</a></li>
+            <li><a href="/Eastern American Toad.html">Eastern American Toad</a></li>
+            <li><a href="/Fowler's Toad.html">Fowler's Toad</a></li>
+            <li><a href="/Green Treefrog.html">Gray Treefrog</a></li>
+            <li><a href="/American Bullfrog.html">American Bullfrog</a></li>
+            <li><a href="/Green Frog.html">Green Frog</a></li>
+            <li><a href="/Eastern Spadefoot.html">Eastern Spadefoot</a></li>
+            <li><a href="/Survey.html">Survey</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>What do you think about frogs?</h1>
+        <h2>~A short survey~</h2>
+    </header>
+
+    <section class="questions">
+        <div class="radio">
+            <span>Do you think frogs are cute?</span> 
+            <label for="opinion">Yes</label>
+            <input type="radio" name="view" id="yes" value="yes">
+            <label for="opinion">No</label>
+            <input type="radio" name="view" id="no" value="no">
+        </div>
+
+        <div>
+            <label for="frogType">What's your favorite kind?</label>
+            <select name="frogType" id="frogType">
+                <option disabled hidden selected>Choose One</option>
+                <option value="greenTreefrog">Green treefrog</option>
+                <option value="greenFrog">Green frog</option>
+                <option value="fowlersToat">Fowler's Toad</option>
+                <option value="easternSpadefoot">Eastern Spadefoot</option>
+                <option value="easternAmericanToad">Eastern American Toad</option>
+                <option value="americanBullfrog">American Bullfrog</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="numberOfGuests">How many do you want to see every day?</label>
+            <input type="number" name="numberOfGuests" id="numberOfGuests" min="0" max="100" step="1" required>
+        </div>
+
+        <div>
+            <label for="storytime">When was the last time you saw a frog? Tell me about it!</label>
+            <textarea name="storytime" id="storytime" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="frogpics">Show me your frog pics!</label>
+            <input type="file" name="frogpics" id="file">
+        </div>
+
+        <div>
+            <p>Do you want to talk to others about frogs every day? <br>
+                Then feel free to subscribe to our Frog Lovers group!
+            </p>
+        </div>
+
+        <form method="post" name="joinTheGroup" data-netlify="true" enctype="multipart/form-data">
+           
+            <div>
+                <label for="naame">Name:</label>
+                <input type="text" name="name" id="name" placeholder="name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email">
+            </div>
+
+            <div>
+                <label for="discord">Discord:</label>
+                <input type="text" name="discord" id="discord" placeholder="discord">
+            </div>
+
+            <div>
+              <label for="age">Age:</label>
+              <input type="date" name="age" id="date" min="1930-01-01" max="2022-12-16">
+            </div>
+
+            <div>
+                <label for="agreeToTerms">Agree to be respectful:</label>
+                <input type="checkbox" name="agreeToTerms" id="agreeToTerms">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+            <div>
+                <button type="reset">Reset</button>
+            </div> <br>
+
+           <div>
+            <footer>
+                Created by Alex Durant<br>
+                &copy; 2022 <br>
+                <a href="mailto:adura0028@mail.ct.edu">Send me an email</a><br>
+                <a href="https://www.inaturalist.org/guides/14557?taxon=20979">Information Source</a>
+            </footer>
+           </div>
+        </form>
+    </section>
+
+</div>
+
+</body>
+</html>

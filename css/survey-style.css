@@ -1,0 +1,38 @@
+/*
+font-family: 'Kalam', cursive;
+font-family: 'Hanalei Fill', cursive;
+*/
+
+nav {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: #5F8D4E;
+    opacity: 90%;
+    width: 300px;
+}
+
+nav li {
+    font-size: 1.3rem;
+    font-family: 'Hanalei Fill', cursive;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--color-pink);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy;
+    text-underline-offset: 4px;
+    color: #FED049;
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    content: "\1F331 ";
+}

@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    color: #A9AF7E;
+    text-align: center;
+}
+
+*,
+* ::before,
+* ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #725d39;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+	float: left;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+    max-width: 50%;
+    box-shadow: 6px 10px 6px #2e2617;
+}
+
+h1 {
+    text-decoration: underline wavy;
+    text-underline-offset: 8px;
+    color: #5F8D4E;
+}
+
+h1::before,
+h1::after {
+    content: "\1F333 ";
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+h6 {
+    width: 75%;
+    padding-left: 250px;
+}
+
+div li {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+h4,
+h5 {
+    font-size: 2rem;
+    color: #5F8D4E;
+    text-decoration: underline wavy;
+    text-underline-offset: 8px;
+}
+
+h6 {
+    font-size: 2rem;
+    color: #FF8787;
+}
+
+nav {
+    float: right;
+    position: sticky;
+    top: 0;
+    background-color: #5F8D4E;
+    opacity: 90%;
+    width: 300px;
+}
+nav li {
+    font-size: 1.3rem;
+    font-family: 'Hanalei Fill', cursive;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: #FF8787;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy;
+    text-underline-offset: 4px;
+    color: #FED049;
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    content: "\1F331 ";
+}
+
+footer {
+    float: right;
+    background-color: #5F8D4E;
+    padding: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+footer a:link,
+footer a:visited {
+    color: #A9AF7E;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+    text-decoration: underline wavy;
+    color: #FED049;
+}

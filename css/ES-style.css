@@ -8,7 +8,7 @@ html {
     font-family: 'Kalam', cursive;
     font-size: 1.25rem;
     line-height: 2.5rem;
-    color: #FED049;
+    color: #DCD7C9;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #A4BE7B;
+    background-color: #3F4E4F;
 }
 
 .img-1,
@@ -29,18 +29,18 @@ body {
     margin-left: 15rem;
     margin-bottom: 4rem;
     max-width: 50%;
-    box-shadow: 6px 10px 6px #8aa067;
+    box-shadow: 6px 10px 6px #313b3c;
 }
 
 h1 {
     text-decoration: underline wavy;
     text-underline-offset: 13px;
-    color: #5F8D4E;
+    color: #A27B5C;
 }
 
 h1::before,
 h1::after {
-    content: "\1F34F ";
+    content: "\2660 ";
 }
 
 h1,
@@ -63,9 +63,8 @@ div li {
 }
 
 h3 {
-
     font-size: 2rem;
-    color: #5F8D4E;
+    color: #A27B5C;
     text-decoration: underline wavy;
     text-underline-offset: 8px;
 }
@@ -74,11 +73,7 @@ h4 {
     font-family: 'Hanalei Fill', cursive;
     font-weight: lighter;
     font-size: 2rem;
-    color: #5F8D4E;
-}
-
-h5 {
-    color: #A9AF7E;
+    color: #e33939;
 }
 
 nav {
@@ -111,11 +106,12 @@ nav a:active {
 
 nav a:hover::before,
 nav a:hover::after {
-    content: "\1F331 ";
+    content: "\1F425 ";
 }
 
 footer {
     float: right;
+    color: #A9AF7E;
     background-color: #5F8D4E;
     padding: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

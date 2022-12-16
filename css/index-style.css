@@ -1,9 +1,19 @@
+/*
+font-family: 'Kalam', cursive;
+font-family: 'Hanalei Fill', cursive;
+*/
+
+:root {
+    --color-green: #5BB318;
+    --color-pink: #FF8787;
+}
+
 html {
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.25rem;
-    line-height: 1.2rem;
-    color: 5F8D4E;
+    line-height: 2.5rem;
+    color: #5F8D4E;
     text-align: center;
 }
 
@@ -14,10 +24,88 @@ html {
 }
 
 body {
-    background-color: orange;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Roseland_Park%2C_Woodstock_Connecticut.jpg/1280px-Roseland_Park%2C_Woodstock_Connecticut.jpg);
+    background-color: darkslategrey;
+    background-image: url(/img/NATURE_TRAIL_II.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+#wrapper {
+    width: 60%;
+    background-color: #1c67589b;
+    color: var(--color-green);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    background-image: -o-linear-gradient(var(--color-green), var(--color-pink));
+    background-image: linear-gradient(var(--color-green), var(--color-pink));
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    text-decoration: underline wavy;
+    text-underline-offset: 10px;
+}
+
+h2::before,
+h2::after {
+    content: "\1F438 ";
+    font-size: 2rem;
+}
+
+nav li {
+    font-size: 1.3rem;
+    font-family: 'Hanalei Fill', cursive;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--color-pink);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy;
+    text-underline-offset: 4px;
+    color: #FED049;
+}
+
+nav a:hover::before,
+nav a:hover::after {
+    content: "\1F331 ";
+}
+
+footer {
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-top: 40px;
+}
+
+footer a:link,
+footer a:visited {
+    color: var(--color-pink);
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+    text-decoration: underline wavy;
+    color: #FED049;
 }

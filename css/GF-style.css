@@ -8,7 +8,7 @@ html {
     font-family: 'Kalam', cursive;
     font-size: 1.25rem;
     line-height: 2.5rem;
-    color: #A9AF7E;
+    color: #FED049;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #725d39;
+    background-color: #A4BE7B;
 }
 
 .img-1,
@@ -40,15 +40,15 @@ h1 {
 
 h1::before,
 h1::after {
-    content: "\1F333 ";
+    content: "\1F34F ";
 }
 
 h1,
 h2,
 h3,
+h4,
 p,
-div,
-h6 {
+div {
     width: 75%;
     padding-left: 250px;
 }
@@ -62,19 +62,23 @@ div li {
     text-align: left;
 }
 
-h4,
-h5 {
+h3 {
+
     font-size: 2rem;
     color: #5F8D4E;
     text-decoration: underline wavy;
     text-underline-offset: 8px;
 }
 
-h6 {
+h4 {
     font-family: 'Hanalei Fill', cursive;
     font-weight: lighter;
     font-size: 2rem;
-    color: #FF8787;
+    color: #5F8D4E;
+}
+
+h5 {
+    color: #A9AF7E;
 }
 
 nav {

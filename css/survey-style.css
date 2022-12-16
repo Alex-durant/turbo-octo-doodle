@@ -60,6 +60,35 @@ h2 {
     color: #FED049;
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ani-text {
+    animation: fade-in 5s linear, pulse 3s ease 3s;
+}
+
+
 .questions {
     font-size: 1.3rem;
 }

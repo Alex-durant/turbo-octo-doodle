@@ -110,6 +110,34 @@ nav a:hover::after {
     content: "\1F331 ";
 }
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ani-text {
+    animation: fade-in 5s linear, pulse 3s ease 3s;
+}
+
 footer {
     font-family: 'Kalam', cursive;
     font-size: 1rem;
